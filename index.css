@@ -1,0 +1,86 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.card {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 20px;
+  padding: 20px;
+  box-shadow: 2px 2px 12px #aaa;
+}
+
+.image {
+  width: 100%;
+  height: auto;
+  border-bottom: 1px solid #ccc;
+}
+
+.tour-info {
+  padding: 10px;
+}
+
+.tour-details {
+  display: flex;
+  justify-content: space-between;
+}
+
+.tour-price {
+  color: green;
+}
+
+.tour-name {
+  font-weight: bold;
+}
+
+.description {
+  margin-top: 10px;
+}
+
+.read-more {
+  color: blue;
+  cursor: pointer;
+}
+
+.btn-red {
+  margin-top: 10px;
+}
+
+button {
+  background-color: red;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: darkred;
+}
+
+.language-switcher {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #f4f4f4;
+  border-bottom: 1px solid #ccc;
+}
+
+.language-switcher p {
+  margin: 0;
+}
+
+.language-switcher button {
+  background-color: blue;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.language-switcher button:hover {
+  background-color: darkblue;
+}
